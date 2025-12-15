@@ -1,0 +1,14 @@
+body {
+    font-family: Arial, san-serif;
+    background-color: bisque;
+    padding: 40px;
+}
+
+h1 {
+    font-size: 50px;
+}
+
+p {
+    font-size: 20 px;
+    max-width: 500 px;
+}
