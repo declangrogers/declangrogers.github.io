@@ -162,8 +162,9 @@ form .mb-3 {
     top: 25px;
     right: 30px;
     font-size: 18px;
-    font-weight:bold;
+    font-weight: normal;
     color: #0d0b0b;
+    text-decoration: none;
     padding: 8px 16px;
     border-radius: 999px;
     transition: background-color 0.3s, transform 0.2s;
