@@ -132,7 +132,11 @@ form .mb-3 {
 
 .zoom-section {
     position: relative;
-    transition: all 0.4s ease, opacity 0.4 ease;
+    transition: transform 0.4s ease, opacity 0.4 ease;
+}
+
+.zoom-section:target .close-btn{
+    display: block;
 }
 
 .zoom-section:target{
@@ -160,11 +164,10 @@ form .mb-3 {
     top: 25px;
     right: 30px;
     font-size: 18px;
-    text-decoration: none;
-    color: #835b5b;
+    font-weight:bold;
+    color: #0d0b0b;
     padding: 8px 16px;
     border-radius: 999px;
-    font-weight: 600;
     transition: background-color 0.3s, transform 0.2s;
 }
 
