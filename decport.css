@@ -57,6 +57,7 @@ p {
 }
 
 .profile-img {
+    align-items: center;
     width: 150px;
     height: 150px;
     border-radius: 50%;
@@ -75,10 +76,19 @@ p {
     margin: 5px 0 0 0;
 }
 
-section {
+.section-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+}
+
+.section-grid section {
     border-radius: 18px;
-    margin: 40px 0;
     box-shadow: 0 6px 20px rgba(0,0,0,0.08);
+}
+
+#contact {
+    grid-column: 1 / -1;
 }
 
 .section-light {
@@ -86,12 +96,8 @@ section {
     padding: 50px 0;
 }
 
-.section-dark {
-    background-color: #f5e4de;
-    padding: 50px 0;
-}
-
-ul {list-style-type: square;
+ul {
+    list-style-type: square;
     padding-left: 20px;
 }
 
@@ -163,7 +169,7 @@ form .mb-3 {
 }
 
 .close-btn:hover {
-    background-color: #ffd166;
+    background-color: #3f3e3b;
     color: #000;
     transform: scale(1.05);
 }
