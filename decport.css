@@ -56,15 +56,6 @@ p {
     margin-bottom: 60px;
 }
 
-.header-container::after {
-    content: '';
-    display: block;
-    width: 120px;
-    height: 4px;
-    background-color: #835b5b;
-    margin-top: 30px;
-}
-
 .profile-img {
     width: 100px;
     height: 100px;
