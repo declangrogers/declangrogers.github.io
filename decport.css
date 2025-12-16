@@ -1,11 +1,22 @@
 body {
-    font-family: Arial, sans-serif;
+    font-family: 'Roboto Slab', serif;
     background-color: rgb(242, 238, 234);
-    padding: 40px;
+    color: #333;
+    padding: 20px;
+    line-height: 1.6;
+    scroll-behavior: smooth;
 }
 
 h1 {
-    font-size: 50px;
+    font-weight: 700;
+    font-size: 70px;
+    margin-bottom: 15px;
+}
+
+h2{
+    font-weight: 700;
+    font-size: 40px;
+    margin-bottom: 15px;
 }
 
 p {
@@ -29,11 +40,12 @@ p {
     font-size: 1.2rem;
     color: #0b0303;
     font-weight: 500;
-    transition: color 0.3s;
+    transition: color 0.3s; transform 0.2s;
 }
 
 .top-nav a:hover {
     color: #f9f3f3;
+    transform: scale(1.05);
 }
 
 .header-container {
@@ -60,4 +72,44 @@ p {
     font-size: 20px;
     color: #555;
     margin: 5px 0 0 0;
+}
+
+.section-light {
+    background-color: #fff8f0;
+    padding: 50px 0;
+}
+
+.section-dark {
+    background-color: #f5e4de;
+    padding: 50px 0;
+}
+
+ul {list-style-type: square;
+    padding-left: 20px;
+}
+
+ul li {
+    margin-bottom: 12px;
+    line-height: 1.5;
+}
+
+form input, form textarea {
+    border-radius: 8px;
+}
+
+form button {
+    background-color: #835b5b;
+    border: none;
+    border-radius: 8px;
+    padding: 10px 20px;
+    transition: background-color 0.3s;
+}
+
+form button:hover {
+    background-color: #ffd166;
+    color: #000;
+}
+
+form .mb-3 {
+    margin-bottom: 1.2rem;
 }
