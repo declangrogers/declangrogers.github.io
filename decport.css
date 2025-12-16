@@ -167,29 +167,3 @@ form .mb-3 {
     color: #000;
     transform: scale(1.05);
 }
-
-@media (max-width: 768px) {
-    h1 {
-        font-size: 48px;
-    }
-
-    h2 {
-        font-size: 32px;
-    }
-
-    .top-nav {
-        flex-wrap: wrap;
-        gap: 10px;
-    }
-
-    .header-container {
-        flex-direction: column;
-        text-align: center;
-        gap: 15px;
-    }
-
-    .profile-img {
-        width: 90px;
-        height: 90px;
-    }
-}
